@@ -1,0 +1,14 @@
+{% extends 'user/base.html' %}
+
+{% block title %}
+
+<title>Home Page</title>
+
+{% endblock title %}
+
+{% block content %}
+
+<h2>Welcome to this app</h2>
+<p>Please <a href="{{ url_for('users.login') }}">log in</a> to access the admin page</p>
+
+{% endblock content %}
